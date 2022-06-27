@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Logika</title>
+    <link rel="shortcut icon" href="favicon-16x16.png">
+    <style>
+        #wrap{color: darkgreen;}
+    </style>
+</head>
+<body>
+    
+    <div id="Wrap"></div>
+
+ <script>
+    var el = document.createElement('h2');
+    var text = document.createTextNode('Belajar Programming')
+    var box = document.getElementById('Wrap')
+
+    el.appendChild(text);
+    box.appendChild(el);
+
+   var x   = 5000;
+   var y   = 5000;
+   var z   = 50000;
+
+   if( x >= z || y >= z ){
+    alert("uang anda cukup");
+   } else{
+    alert("uang anda tidak cukup");
+   }
+
+   var nama = "Fulan";
+
+   switch( nama ){
+    case "Rafif":
+    alert("Namanya adalah Rafif")
+    break;
+
+    case "Arul":
+    alert("Namanya adalah Arul")
+    break;
+
+    case "Fandy":
+    alert("Namanya adalah Fandy")
+    break;
+
+    default:
+    alert("Nama Tidak Terdaftar")
+   }
+   
+   
+ </script>
+    
+</body>
+</html>
